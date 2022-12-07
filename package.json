@@ -1,0 +1,29 @@
+{
+  "name": "learn-rest-api",
+  "version": "1.0.0",
+  "description": "goal setter app for learning react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaGarciaCS/LEARN-REST-API.git"
+  },
+  "author": "Maria Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaGarciaCS/LEARN-REST-API/issues"
+  },
+  "homepage": "https://github.com/MariaGarciaCS/LEARN-REST-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
