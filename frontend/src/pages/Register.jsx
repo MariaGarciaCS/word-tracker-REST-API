@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
+//useSelector is used to bring in something from the state
+//useDispatch is used to dispact functions
 import { useSelector, useDispatch } from 'react-redux'
+//useNavigate lets us redirect
 import { useNavigate } from 'react-router-dom'
+//toast will let us 
 import { toast } from 'react-toastify'
 import { FaUser } from 'react-icons/fa'
 import { register, reset } from '../features/auth/authSlice'
