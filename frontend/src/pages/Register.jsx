@@ -23,17 +23,17 @@ function Register() {
     (state) => state.auth
   )
 
-  // useEffect(() => {
-  //   if (isError) {
-  //     toast.error(message)
-  //   }
+  useEffect(() => {
+    if (isError) {
+      toast.error(message)
+    }
 
-  //   if (isSuccess || user) {
-  //     navigate('/')
-  //   }
+    if (isSuccess || user) {
+      navigate('/')
+    }
 
-  //   dispatch(reset())
-  // }, [user, isError, isSuccess, message, navigate, dispatch])
+    dispatch(reset())
+  }, [user, isError, isSuccess, message, navigate, dispatch])
 
   const onChange = (e) => {
     setFormData((prevState) => ({
