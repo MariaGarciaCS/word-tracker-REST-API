@@ -2,7 +2,7 @@
   "name": "learn-rest-api",
   "version": "1.0.0",
   "description": "goal setter app for learning react",
-  "main": "server.js",
+  "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
